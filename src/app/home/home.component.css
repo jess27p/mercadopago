@@ -1,0 +1,43 @@
+a {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(41, 62, 117) 1px 1px;
+  margin: 10px;
+  text-decoration: none;
+  padding: 0px 20px;
+  background: url(https://secure.mlstatic.com/mptools/assets/MP-payButton-blue.png) rgb(40, 83, 111);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(41, 62, 117);
+  border-image: initial;
+  font-family: Arial;
+  padding: 0px 20px;
+  border-radius: 7px;
+}
+
+a:hover {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(41, 62, 117) 1px 1px;
+  margin: 10px;
+  text-decoration: none;
+  padding: 0px 20px;
+  background: rgb(66, 135, 184);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(41, 62, 117);
+  border-image: initial;
+  font-family: Arial;
+  padding: 0px 20px;
+  border-radius: 7px;
+}
+
+

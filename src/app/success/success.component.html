@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    ¡Su pago se realizó exitosamente!
+  </h1>
+  <p>El código de su pago es: {{collection_id}}</p>
+  <p *ngIf="collection_status === 'approved'">El status de su pago es: Aprobado</p>
+  <p *ngIf="payment_type === 'credit_card'">Tipo de pago: Tarjeta de Crédito</p>
+  <p>Número de orden: {{order_id}}</p>
+  <img width="300" src="../../assets/images/happy.png">
+
+</div>
